@@ -46,7 +46,7 @@ window.addEventListener("mousedown", (e) => {
 		console.log(imgsBoxS);
 	}
 	if (`${imgsBoxS}` == "") {
-		console.log("if condition block")
+		console.log("if condition block");
 		return;
 	}
 	let imgsBoxSItom = document.querySelector(`.${imgsBoxS}`);
